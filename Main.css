@@ -106,11 +106,11 @@ a:visited {
   background: black;
 }
 
-.showcase-box a {
+.showcase-box > a {
   display: none;
 }
 
-.showcase-box:hover a {
+.showcase-box:hover > a {
   display: block;
 }
 
