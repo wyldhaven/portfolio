@@ -62,12 +62,14 @@
 
 .about-section-spacer {
   text-align: left;
-  max-width: 85%;
-  margin: 0 auto;
+  max-width: 65%;
+  margin: 2rem auto;
   display: flex;
   align-items: baseline;
 }
 
 .about-section-spacer h3 {
   width: 100%;
+  min-width: 8rem;
+  margin-right: 2rem;
 }
