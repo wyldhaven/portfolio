@@ -106,14 +106,6 @@ a:visited {
   background: black;
 }
 
-.showcase-box > a {
-  display: none;
-}
-
-.showcase-box:hover > a {
-  display: block;
-}
-
 .home-su-box {
   background-color: #72A2BA;
 }
