@@ -94,16 +94,8 @@ a:visited {
   opacity: .6;
 }
 
-.showcase-box .cover:hover {
+.showcase-box img:hover .cover {
   background: black;
-}
-
-.showcase-box .cover .cover-links {
-  display: none;
-}
-
-.showcase-box .cover:hover .cover-links {
-  display: block;
 }
 
 .home-su-box {
