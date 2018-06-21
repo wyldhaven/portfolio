@@ -95,10 +95,6 @@ a:visited {
   display: none;
 }
 
-.showcase-box img:hover .cover {
-  display: block;
-}
-
 .home-su-box {
   background-color: #72A2BA;
 }
