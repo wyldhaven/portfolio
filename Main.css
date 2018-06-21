@@ -1,3 +1,7 @@
+a:visited {
+  color: inherit;
+}
+
 .outer-wrapper {
   max-width: 1366px;
   margin: 0 auto;
@@ -18,7 +22,7 @@
   box-shadow: 0 1px 9px #ccc;
   left: 0;
   right: 0;
-  z-index: 2;
+  z-index: 3;
 }
 
 .navigation ul {
@@ -80,6 +84,12 @@
   height: auto;
   margin: auto;
   color: #fff;
+  z-index: 2;
+  font-size: 1.5rem;
+}
+
+.cover-links:last-child {
+  margin-top: 2rem;
 }
 
 .showcase-box .cover {
@@ -89,11 +99,19 @@
   background: transparent;
   padding: 100%;
   z-index: 1;
-  opacity: .4;
+  opacity: .6;
 }
 
 .showcase-box .cover:hover {
   background: black;
+}
+
+.showcase-box a {
+  display: none;
+}
+
+.showcase-box:hover a {
+  display: block;
 }
 
 .home-su-box {
