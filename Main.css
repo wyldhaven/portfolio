@@ -10,6 +10,17 @@
   text-align: center;
 }
 
+.navigation {
+  padding: 1rem 2rem;
+  position: fixed;
+  top: 0;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 1px 9px #ccc;
+  left: 0;
+  right: 0;
+}
+
 .navigation ul {
   padding: 0;
   display: flex;
@@ -38,6 +49,17 @@
   text-align: center;
   padding-top: 1rem;
   color: #fff;
+  overflow: hidden;
+}
+
+.showcase-box img {
+  max-width: 45rem;
+  margin-bottom: -.3rem;
+}
+
+.showcase-box h2 {
+  font-size: 3rem;
+  padding: 1rem 0;
 }
 
 .home-su-box {
@@ -60,6 +82,10 @@
   margin-top: 3rem;
 }
 
+.home-about-wrapper {
+  margin: 4rem auto;
+}
+
 .about-section-spacer {
   text-align: left;
   max-width: 65%;
@@ -74,8 +100,12 @@
   margin-right: 2rem;
 }
 
-.su-wrapper {
+.su-wrapper , .wh-wrapper {
   text-align: left;
+}
+
+.process-page-header {
+  margin-top: 5rem;
 }
 
 .su-page-box , .su-layout-box , .su-main-box {
@@ -83,5 +113,5 @@
 }
 
 .wh-page-box , .wh-main-box {
-  background-color: #72A2BA;
+  background-color: #73ADA1;
 }
