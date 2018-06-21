@@ -88,14 +88,15 @@ a:visited {
   position: absolute;
   top: 0;
   left: 0;
-  background: transparent;
+  background: black;
   padding: 100%;
   z-index: 1;
   opacity: .6;
+  display: none;
 }
 
 .showcase-box img:hover .cover {
-  background: black;
+  display: block;
 }
 
 .home-su-box {
