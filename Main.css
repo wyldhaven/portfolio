@@ -10,6 +10,17 @@
   text-align: center;
 }
 
+.navigation ul {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation ul li {
+  list-style-type: none;
+}
+
 .home-top-section {
 
 }
@@ -26,6 +37,7 @@
 .showcase-box {
   text-align: center;
   padding-top: 1rem;
+  color: #fff;
 }
 
 .home-su-box {
@@ -46,4 +58,8 @@
 
 .dev-header-home {
   margin-top: 3rem;
+}
+
+.about-section-spacer {
+  text-align: left;
 }
