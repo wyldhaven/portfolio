@@ -97,7 +97,7 @@ a:visited {
   display: none;
 }
 
-.showcase-box .cover:hover {
+.showcase-box:hover .cover {
   display: block;
 }
 
