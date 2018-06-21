@@ -15,7 +15,6 @@
   position: fixed;
   top: 0;
   background: #fff;
-  width: 100%;
   box-shadow: 0 1px 9px #ccc;
   left: 0;
   right: 0;
@@ -25,7 +24,6 @@
   padding: 0;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .navigation ul li {
@@ -45,9 +43,16 @@
   font-size: 3rem;
 }
 
+.showcase-box-link {
+  text-decoration: none;
+}
+
+.showcase-box-link:hover {
+  text-decoration: none;
+}
+
 .showcase-box {
   text-align: center;
-  padding-top: 1rem;
   color: #fff;
   overflow: hidden;
 }
@@ -58,8 +63,18 @@
 }
 
 .showcase-box h2 {
-  font-size: 3rem;
-  padding: 1rem 0;
+  padding: 4rem 0;
+  margin: 0;
+}
+
+.showcase-box .cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: black;
+  padding: 100%;
+  z-index: 1;
+  opacity: .4;
 }
 
 .home-su-box {
@@ -79,7 +94,8 @@
 }
 
 .dev-header-home {
-  margin-top: 3rem;
+  margin-top: 15rem;
+  font-size: 3rem;
 }
 
 .home-about-wrapper {
