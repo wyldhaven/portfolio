@@ -101,6 +101,14 @@ a:visited {
   display: block;
 }
 
+.showcase-box .cover-links {
+  display: none;
+}
+
+.showcase-box:hover .cover-links {
+  display: block;
+}
+
 .home-su-box {
   background-color: #72A2BA;
 }
