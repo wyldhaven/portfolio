@@ -215,6 +215,19 @@ a:visited {
   color: #fff;
 }
 
+.interview-section {
+  text-align: center;
+}
+
+.interview-section img {
+  max-width: 25rem;
+  margin-right: 2rem;
+}
+
+.interview-section img:last-child {
+  max-width: 26.26rem;
+  margin-right: 0;
+}
 
 
 
