@@ -176,15 +176,20 @@ a:visited {
   background-color: #73ADA1;
 }
 
-.su-page-box {
+.su-page-box , .wh-page-box {
   padding-top: 4rem;
 }
 
-.su-page-box img {
+.su-page-box img , .wh-page-box img {
   width: 40%;
 }
 
 .su-page-box img:first-child {
+  margin-left: -1rem;
+  margin-right: 1rem;
+}
+
+.wh-page-box img:first-child {
   margin-left: -1rem;
   margin-right: 1rem;
 }
