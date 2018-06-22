@@ -229,7 +229,14 @@ a:visited {
   margin-right: 0;
 }
 
-
+.functionality-section {
+    background: url(/portfolio/Wyldhaven-blank-img.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 41rem;
+    overflow: hidden;
+}
 
 
 
