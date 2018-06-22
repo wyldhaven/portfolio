@@ -176,6 +176,10 @@ a:visited {
   background-color: #73ADA1;
 }
 
+.wh-main-box:hover h2 {
+  text-decoration: underline;
+}
+
 .su-page-box , .wh-page-box {
   padding-top: 4rem;
 }
