@@ -192,6 +192,11 @@ a:visited {
   margin: 4rem 0 2rem;
 }
 
+.site-wrapper-link {
+  text-decoration: none;
+  color: #fff;
+}
+
 
 
 .footer {
