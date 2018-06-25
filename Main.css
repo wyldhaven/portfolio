@@ -180,6 +180,10 @@ a:visited {
   text-decoration: underline;
 }
 
+.su-main-box:hover h2 {
+  text-decoration: underline;
+}
+
 .su-page-box , .wh-page-box {
   padding-top: 4rem;
 }
@@ -232,6 +236,37 @@ a:visited {
   max-width: 26.26rem;
   margin-right: 0;
 }
+
+.before-after .top {
+  display: flex;
+}
+
+.before-after .top .content {
+  display: inline-block;
+  width: 30rem;
+  text-align: left;
+}
+
+.before-after .top img {
+  max-width: 45rem;
+  max-height: 30rem;
+  display: inline-block;
+}
+
+.before-after .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0 7rem;
+}
+
+.before-after .bottom img {
+  max-width: 28rem;
+}
+
+
+
+
 
 .functionality-section {
     background: url(/portfolio/Wyldhaven-blank-img.png);
