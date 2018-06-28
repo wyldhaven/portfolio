@@ -65,6 +65,8 @@ a:visited {
 .showcase-box img {
   max-width: 45rem;
   margin-bottom: -.3rem;
+  box-shadow: 2px 4px 11px 0px black;
+  border-radius: 16px 16px 0 0;
 }
 
 .showcase-box h2 {
@@ -79,16 +81,24 @@ a:visited {
   left: 0;
   right: 0;
   bottom: 0;
-  top: 50%;
+  top: 40%;
   height: auto;
   margin: auto;
   color: #fff;
   z-index: 2;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.cover-links a {
+  text-decoration: none;
+}
+
+.cover-links a:hover {
+  text-decoration: underline;
 }
 
 .cover-links:last-child {
-  margin-top: 4rem;
+  margin-top: 5.5rem;
 }
 
 .showcase-box .cover {
@@ -138,7 +148,7 @@ a:visited {
 }
 
 .home-about-wrapper {
-  margin: 4rem auto;
+  margin: 10rem auto 8rem;
 }
 
 .about-section-spacer {
@@ -180,8 +190,16 @@ a:visited {
   text-decoration: underline;
 }
 
+.wh-main-box:hover {
+  opacity: .9;
+}
+
 .su-main-box:hover h2 {
   text-decoration: underline;
+}
+
+.su-main-box:hover {
+  opacity: .9;
 }
 
 .su-page-box , .wh-page-box {
@@ -267,6 +285,7 @@ a:visited {
 
 .before-after .bottom img {
   max-width: 28rem;
+  max-height: 18rem;
 }
 
 
