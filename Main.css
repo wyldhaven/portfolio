@@ -237,6 +237,10 @@ a:visited {
   margin-right: 0;
 }
 
+.before-after {
+  margin-top: 5rem;
+}
+
 .before-after .top {
   display: flex;
 }
@@ -245,6 +249,7 @@ a:visited {
   display: inline-block;
   width: 30rem;
   text-align: left;
+  padding-left: 3rem;
 }
 
 .before-after .top img {
