@@ -273,7 +273,7 @@ div.wh-page-box img {
   max-width: 18rem;
 }
 
-.su-layout-box a:last-child {
+.su-layout-box .images a:last-child {
   margin: auto auto auto 2rem;
 }
 
