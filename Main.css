@@ -260,11 +260,12 @@ div.wh-page-box img {
 
 .su-layout-box .images img {
   border-radius: 0;
-  box-shadow: none
+  box-shadow: none;
+  max-width: 53rem;
 }
 
 .su-layout-box .images a {
-  margin: 4rem 2rem 2rem;
+  margin: 4rem 2rem 2rem auto;
 }
 
 .su-layout-box a:last-child img {
