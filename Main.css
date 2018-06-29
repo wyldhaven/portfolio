@@ -267,8 +267,9 @@ div.wh-page-box img {
   margin: 4rem 2rem 2rem;
 }
 
-.su-layout-box img:last-child {
-  border-radius: 0;
+.su-layout-box a:last-child img {
+  box-shadow: 2px 3px 7px 0px #333;
+  max-width: 18rem;
 }
 
 .su-layout-box a {
