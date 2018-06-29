@@ -262,15 +262,11 @@ div.wh-page-box img {
 }
 
 .su-layout-box .images a {
-  margin: 4rem auto 2rem 2rem;
+  margin: 4rem 2rem 2rem;
 }
 
 .su-layout-box .images img:last-child {
   border-radius: 0;
-}
-
-.su-layout-box .images a:last-child {
-  margin: 4rem 2rem 2rem auto;
 }
 
 .su-layout-box a {
