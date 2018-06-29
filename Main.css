@@ -256,15 +256,21 @@ div.wh-page-box img {
   margin: 0 auto;
 }
 
-.su-layout-box .images img:first-child {
-  margin: 4rem auto 2rem 2rem;
+.su-layout-box .images img {
   border-radius: 0;
   box-shadow: none
 }
 
+.su-layout-box .images a {
+  margin: 4rem auto 2rem 2rem;
+}
+
 .su-layout-box .images img:last-child {
-  margin: 4rem 2rem 2rem auto;
   border-radius: 0;
+}
+
+.su-layout-box .images a:last-child {
+  margin: 4rem 2rem 2rem auto;
 }
 
 .su-layout-box a {
