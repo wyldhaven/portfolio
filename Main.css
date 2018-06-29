@@ -273,13 +273,17 @@ div.wh-page-box img {
   max-width: 18rem;
 }
 
+.su-layout-box a:last-child {
+  margin: auto auto auto 2rem;
+}
+
 .su-layout-box a {
   display: block;
   margin: 4rem 0 2rem;
 }
 
 .su-layout-box a {
-  margin: 4rem auto 2rem;
+  margin: 2rem auto 4rem;
   width: fit-content;
   width: -moz-fit-content;
   display: table;
