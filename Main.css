@@ -251,6 +251,22 @@ div.wh-page-box img {
   padding-top: 4rem;
 }
 
+.su-layout-box .images {
+  display: flex;
+  margin: 0 auto;
+}
+
+.su-layout-box .images img:first-child {
+  margin: 4rem auto 2rem 2rem;
+  border-radius: 0;
+  box-shadow: none
+}
+
+.su-layout-box .images img:last-child {
+  margin: 4rem 2rem 2rem auto;
+  border-radius: 0;
+}
+
 .su-layout-box a {
   display: block;
   margin: 4rem 0 2rem;
@@ -261,6 +277,7 @@ div.wh-page-box img {
   width: fit-content;
   width: -moz-fit-content;
   display: table;
+  text-transform: uppercase;
 }
 
 .site-wrapper-link {
