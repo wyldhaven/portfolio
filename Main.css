@@ -254,6 +254,8 @@ div.wh-page-box img {
 .su-layout-box .images {
   display: flex;
   margin: 0 auto;
+  width: fit-content;
+  width: -moz-fit-content;
 }
 
 .su-layout-box .images img {
@@ -265,7 +267,7 @@ div.wh-page-box img {
   margin: 4rem 2rem 2rem;
 }
 
-.su-layout-box .images img:last-child {
+.su-layout-box img:last-child {
   border-radius: 0;
 }
 
