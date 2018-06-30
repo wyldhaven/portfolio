@@ -30,7 +30,7 @@ var animateIntro = function() {
         opacity: .6
     }, 3000, function() {
         $(".arrow-container").animate({
-            opacity: .3
+            opacity: .6
         }, 1000);
     });
 
