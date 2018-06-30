@@ -23,7 +23,7 @@ $(document).ready(function() {
 var setupValues = function() {
   myHeader = document.querySelector('.main-header');
   subHead = document.querySelector('.underbrow');
-  scrollArrow = document.querySelector('.arrow');
+  scrollArrow = document.querySelector('.arrow-wrapper');
 };
 
 var animateIntro = function() {
@@ -35,7 +35,7 @@ var animateIntro = function() {
         }, 1500);
     });
 
-  $(".arrow").delay(4550).animate({
+  $(".arrow-wrapper").delay(4550).animate({
         opacity: .7
     }, 1900);
 
