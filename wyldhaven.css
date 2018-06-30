@@ -63,7 +63,7 @@ h2 {
   letter-spacing: 1.2rem;
   padding-left: 1.4rem;
   text-transform: uppercase;
-  opacity: .6;
+  opacity: 0;
 }
 
 .arrow {
