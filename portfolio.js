@@ -36,7 +36,7 @@ var animateIntro = function() {
     });
 
   $(".arrow").delay(4550).animate({
-        opacity: 7.
+        opacity: .7
     }, 1900);
 
 };
