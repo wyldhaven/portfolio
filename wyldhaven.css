@@ -39,7 +39,7 @@ body {
 }
 
 .home-section {
-  margin-bottom: 13rem;
+  margin-bottom: 40rem;
   position: relative;
 }
 
@@ -129,6 +129,10 @@ h2 {
 }
 
 .logo {
-  bottom: 2rem;
+  bottom: 0;
+  max-width: 10rem;
   position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
