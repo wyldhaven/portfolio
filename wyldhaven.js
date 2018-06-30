@@ -21,40 +21,27 @@ $(document).ready(function() {
 
 
 var setupValues = function() {
-  scrollArrow = document.querySelector('.scroll');
-  scrollCopy = document.querySelector('.arrow');
+  scrollArrow = document.querySelector('.arrow');
+  scrollCopy = document.querySelector('.scroll');
 };
 
 var animateIntro = function() {
-    $(".scroll").delay(0).animate({
-        opacity: 0
-    }, 3000, function() {
+  $(".arrow").delay(3500).animate({
+        opacity: 1
+    }, 2000, function() {
         $(".scroll").animate({
-            opacity: 1,
-        }, 3000);
+            opacity: 1
+        }, 1000);
     });
 
-    $(".arrow").delay(0).animate({
-        opacity: 0
-    }, 3000, function() {
-        $(".arrow").animate({
-            opacity: 1,
-        }, 3000);
-    });
-
-    // $(".intro-copy").delay(3500).animate({
-    //     opacity: 1
-    // }, 2000, function() {
-    //     $(".intro-scroll").animate({
-    //         opacity: 1
-    //     }, 1000);
-    // });
 };
+
 
 var init = function() {
   setupValues();
   animateIntro();
 };
+
 
 
 WYLD.scrolling = {
