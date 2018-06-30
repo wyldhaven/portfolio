@@ -51,6 +51,9 @@ var animateIntro = function() {
     // });
 };
 
+var init = function() {
+  setupValues();
+};
 
 
 WYLD.scrolling = {
