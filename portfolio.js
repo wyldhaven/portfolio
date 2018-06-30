@@ -37,7 +37,7 @@ var animateIntro = function() {
 
   $(".arrow").animate({
         opacity: 1
-    }
+    });
 
 };
 
