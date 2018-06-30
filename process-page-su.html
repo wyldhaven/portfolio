@@ -8,19 +8,20 @@
 
   <link rel="stylesheet" href="Main.css">
   <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="/portfolio/portfolio.js"></script>
+
+  <script>
+    $(function(){
+      $("#includedNav").load("nav2.html");
+    });
+  </script>
 </head>
 
 <body>
   <div class="outer-wrapper">
 
-  <div class="navigation">
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="mailto:graysonrandallwebdev@gmail.com">Contact</a></li>
-      <li><a href="#">Resume</a></li>
-      <li><a href="portfolio/index.html">Grayson Randall</a></li>
-    </ul>
-  </div>
+  <div id="includedNav"></div>
 
   <h1 id="top" class="process-page-header">Structures Unlimited</h1>
 
@@ -51,7 +52,7 @@
     <div class="showcase-box su-layout-box">
       <div class="images">
         <a href="#" data-featherlight="#layout"><img id="layout" src="/portfolio/image/su-page-proto.png" alt="" /></a>
-        <a href="#" data-featherlight="#layout"><img id="layout" src="/portfolio/image/su-style-guide.png" alt="" /></a>
+        <a href="#" data-featherlight="#guide"><img id="guide" src="/portfolio/image/su-style-guide.png" alt="" /></a>
       </div>
       <a href="">See the Prototype</a>
     </div>
