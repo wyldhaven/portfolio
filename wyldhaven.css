@@ -66,6 +66,10 @@ h2 {
   opacity: 0;
 }
 
+.arrow-container {
+  opacity: 0;
+}
+
 .arrow {
   position: absolute;
   padding: 0;
