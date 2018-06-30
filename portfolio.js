@@ -23,7 +23,7 @@ $(document).ready(function() {
 var setupValues = function() {
   myHeader = document.querySelector('.main-header');
   subHead = document.querySelector('.underbrow');
-  //scrollArrow = document.querySelector('.arrow');
+  scrollArrow = document.querySelector('.arrow');
 };
 
 var animateIntro = function() {
@@ -35,9 +35,9 @@ var animateIntro = function() {
         }, 1000);
     });
 
-  // $(".arrow").animate({
-  //       opacity: 1
-  //   }
+  $(".arrow").animate({
+        opacity: 1
+    }
 
 };
 
