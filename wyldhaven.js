@@ -21,7 +21,7 @@ $(document).ready(function() {
 
 
 var setupValues = function() {
-  scrollArrow = document.querySelector('.arrow');
+  scrollArrow = document.querySelector('.arrow-container');
   scrollCopy = document.querySelector('.scroll');
 };
 
@@ -29,8 +29,8 @@ var animateIntro = function() {
   $(".scroll").delay(35500).animate({
         opacity: .6
     }, 3000, function() {
-        $(".arrow").animate({
-            opacity: .3
+        $(".arrow-container").animate({
+            opacity: 1
         }, 1000);
     });
 
