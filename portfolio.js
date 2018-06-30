@@ -29,13 +29,13 @@ var setupValues = function() {
 var animateIntro = function() {
   $(".main-header").delay(700).animate({
         opacity: 1
-    }, 1150, function() {
+    }, 1300, function() {
         $(".underbrow").animate({
             opacity: 1
         }, 1000);
     });
 
-  $(".arrow").delay(2800).animate({
+  $(".arrow").delay(3200).animate({
         opacity: 1
     });
 
