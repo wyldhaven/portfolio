@@ -10,20 +10,19 @@
   <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
   <script type="text/javascript" src="/portfolio/portfolio.js"></script>
-
 </head>
 
 <body>
-  <div class="outer-wrapper">
+  <div id="top" class="outer-wrapper">
 
-  <div class="navigation">
-    <ul>
-      <li><a href="/index.html#about">About</a></li>
-      <li><a href="mailto:graysonrandallwebdev@gmail.com">Contact</a></li>
-      <li><a href="#">Resume</a></li>
-      <li><a href="/index.html">Grayson Randall</a></li>
-    </ul>
-  </div>
+    <div class="navigation">
+      <ul>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="mailto:graysonrandallwebdev@gmail.com">Contact</a></li>
+        <li><a href="#">Resume</a></li>
+        <li><a href="index.html">Grayson Randall</a></li>
+      </ul>
+    </div>
 
 
     <h1 id="top" class="process-page-header">Wyldhaven</h1>
@@ -53,7 +52,7 @@
       </div>
 
       <div class="text-spacer-center wh-mockups">
-        <img src="/portfolio/image/wh-page-mockups.png" alt="" />
+        <a href="#" data-featherlight="#mockups"><img id="mockups" src="/portfolio/image/wh-page-mockups.png" alt="" /></a>
       </div>
 
     </div>
@@ -63,18 +62,22 @@
       <img src="/portfolio/image/wh-page-site.png" alt="" />
     </div></a>
 
-  <div class="footer">
-    <ul>
-      <li>Home</li>
-      <li>Back to Top</li>
-    </ul>
-  </div>
+    <div class="footer">
+      <ul>
+        <li><a href="index.html">Grayson Randall</a></li>
+        <li><a href="#top">Back to Top</a></li>
+      </ul>
+    </div>
 
 </div>
 
 
 <script src="//code.jquery.com/jquery-latest.js"></script>
 <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+<script>
+  GRAYSON.scrolling.init();
+</script>
 </body>
 
 
