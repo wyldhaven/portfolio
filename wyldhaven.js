@@ -26,12 +26,12 @@ var setupValues = function() {
 };
 
 var animateIntro = function() {
-  $(".scroll").delay(7000).animate({
+  $(".scroll").delay(3500).animate({
         opacity: .6
     }, 3000, function() {
         $(".arrow-container").animate({
             opacity: .6
-        }, 1000);
+        }, 1500);
     });
 
 };
