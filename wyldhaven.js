@@ -53,6 +53,7 @@ var animateIntro = function() {
 
 var init = function() {
   setupValues();
+  animateIntro();
 };
 
 
