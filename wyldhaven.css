@@ -12,13 +12,17 @@ body {
   color: #fff;
 }
 
-.navigation ul {
-  padding: 0;
-  list-style-type: none;
+.navigation {
   position: fixed;
   left: 3rem;
   top: 2rem;
   margin: -.5rem 0 0;
+  z-index: 100;
+}
+
+.navigation ul {
+  padding: 0;
+  list-style-type: none;
 }
 
 .navigation li {
