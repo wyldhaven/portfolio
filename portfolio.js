@@ -32,12 +32,12 @@ var animateIntro = function() {
     }, 2300, function() {
         $(".underbrow").animate({
             opacity: 1
-        }, 1000);
+        }, 1500);
     });
 
-  $(".arrow").delay(4500).animate({
+  $(".arrow").delay(4550).animate({
         opacity: 1
-    });
+    }, 1900);
 
 };
 
