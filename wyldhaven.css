@@ -76,18 +76,18 @@ h2 {
   opacity: .2;
   z-index: -1;
   opacity: 0;
-  /* -webkit-animation: pulse 6s infinite;
-  animation: pulse 6s infinite; */
+  -webkit-animation: pulse 6s infinite;
+  animation: pulse 6s infinite;
 }
 
-/* @keyframes pulse {
+@keyframes pulse {
     0%, 100% {
         opacity: 0.05;
     }
     50% {
         opacity: 0.3;
     }
-} */
+}
 
 .music-section {
   position: relative;
