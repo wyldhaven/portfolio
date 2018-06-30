@@ -9,11 +9,11 @@
   <link rel="stylesheet" href="Main.css">
   <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-
+  <script type="text/javascript" src="/portfolio/portfolio.js"></script>
 </head>
 
 <body>
-  <div class="outer-wrapper">
+  <div id="top" class="outer-wrapper">
 
   <div class="navigation">
     <ul>
@@ -56,7 +56,7 @@
         <a href="#" data-featherlight="#layout"><img id="layout" src="/portfolio/image/su-page-proto.png" alt="" /></a>
         <a href="#" data-featherlight="#guide"><img id="guide" src="/portfolio/image/su-style-guide.png" alt="" /></a>
       </div>
-      <a href="">See the Prototype</a>
+      <a target="_blank" href="https://projects.invisionapp.com/share/CXKVRW8VPJK#/screens/302775564_Homepage">See the Prototype</a>
     </div>
 
     <div class="content-wrapper su-wrapper">
@@ -84,15 +84,15 @@
         <p>Structures Unlimited was built in Go-Daddy on their most basic plan. While this is not my first experince working with basic hosting platforms, I did run into some technical difficulties during development that forced me to re-think my mobile design approach. As it turns out, Go-Daddy offers a seperate ‘Mobile’ plan for any business that requires a user-friendly mobile site. Without it, any mobile @media-queries are essentially blocked. Since Structures Unlimited is not signed up for that plan, I adjusted my design to perform without the use of any @media-queries below mobile phone size.</p>
       </div>
 
-    <a class="site-wrapper-link" href=""><div class="showcase-box su-main-box">
+    <a class="site-wrapper-link" target="_blank" href="http://structuresunlimitedpc.com/"><div class="showcase-box su-main-box">
       <h2>View Site</h2>
       <img src="/portfolio/image/su-page-site.png" alt="" />
     </div></a>
 
   <div class="footer">
     <ul>
-      <li>Home</li>
-      <li>Back to Top</li>
+      <li><a href="index.html">Grayson Randall</a></li>
+      <li><a href="top">Back to Top</a></li>
     </ul>
   </div>
 
@@ -101,6 +101,10 @@
 
 <script src="//code.jquery.com/jquery-latest.js"></script>
 <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+<script>
+  GRAYSON.scrolling.init();
+</script>
 </body>
 
 
