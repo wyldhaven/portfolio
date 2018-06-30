@@ -40,6 +40,7 @@ body {
 
 .home-section {
   margin-bottom: 13rem;
+  position: relative;
 }
 
 h1 {
@@ -58,17 +59,38 @@ h2 {
   letter-spacing: 1.2rem;
   padding-left: 1.4rem;
   text-transform: uppercase;
+  opacity: .6;
 }
 
-.scroll:after {
-  content:"";
-  background-color: #fff;
-  opacity: .5;
+.arrow {
+  position: absolute;
+  padding: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: -16rem;
+  opacity: .2;
+  z-index: -1;
 }
 
 .music-section {
   position: relative;
-  margin-bottom: 5rem;
+  margin-bottom: 40rem;
+  padding: 6rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.album {
+  max-width: 35rem;
+  box-shadow: 5px 5px 13px -1px black;
+}
+
+.spotify-test {
+  background: grey;
+  padding: 9.5rem 12rem;
+  margin-left: 3rem;
 }
 
 .music-section .cover {
@@ -86,7 +108,7 @@ h2 {
 .about-section {
   position: relative;
   margin-bottom: 0;
-  padding-top: 20%;
+  padding: 20rem 1rem;
 }
 
 .about-section .cover {
@@ -104,4 +126,9 @@ h2 {
 .about-section p {
   width: 20rem;
   margin: 0 auto;
+}
+
+.logo {
+  bottom: 2rem;
+  position: absolute;
 }
