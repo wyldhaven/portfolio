@@ -20,6 +20,30 @@ $(document).ready(function() {
 
 
 
+var setupValues = function() {
+  myHeader = document.querySelector('.main-header');
+  subHead = document.querySelector('.underbrow');
+};
+
+var animateIntro = function() {
+  $(".main-header").delay(700).animate({
+        opacity: 1
+    }, 1000, function() {
+        $(".underbrow").animate({
+            opacity: 1
+        }, 1000);
+    });
+
+};
+
+
+var init = function() {
+  setupValues();
+  animateIntro();
+};
+
+
+
 
 GRAYSON.scrolling = {
         init: init
