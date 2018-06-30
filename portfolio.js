@@ -23,20 +23,21 @@ $(document).ready(function() {
 var setupValues = function() {
   myHeader = document.querySelector('.main-header');
   subHead = document.querySelector('.underbrow');
+  //scrollArrow = document.querySelector('.arrow');
 };
 
 var animateIntro = function() {
   $(".main-header").delay(700).animate({
         opacity: 1
-    }, 1100, function() {
+    }, 1150, function() {
         $(".underbrow").animate({
             opacity: 1
-        }, 600, function() {
-            $(".underbrow").animate({
-                border-top: 1px solid black;
-            }, 1000);
-        });
+        }, 1000);
     });
+
+  // $(".arrow").animate({
+  //       opacity: 1
+  //   }
 
 };
 
