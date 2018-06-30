@@ -28,10 +28,14 @@ var setupValues = function() {
 var animateIntro = function() {
   $(".main-header").delay(700).animate({
         opacity: 1
-    }, 1000, function() {
+    }, 1100, function() {
         $(".underbrow").animate({
             opacity: 1
-        }, 1000);
+        }, 600, function() {
+            $(".underbrow").animate({
+                border-top: 1px solid black;
+            }, 1000);
+        });
     });
 
 };
