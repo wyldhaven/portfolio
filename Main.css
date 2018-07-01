@@ -479,12 +479,25 @@ div.wh-page-box img {
 
 .interview-section img {
   max-width: 25rem;
-  margin-right: 2rem;
+  margin-right: 0;
+}
+
+@media only screen and (min-width: 26.25rem) {
+  .interview-section img {
+    max-width: 15rem;
+    margin-right: 2rem;
+  }
 }
 
 .interview-section a:last-child img {
   max-width: 26.26rem;
   margin-right: 0;
+}
+
+@media only screen and (min-width: 26.25rem) {
+  .interview-section a:last-child img {
+    max-width: 15rem;
+  }
 }
 
 .before-after {
