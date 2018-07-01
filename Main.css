@@ -1,5 +1,9 @@
+a {
+  color: blue;
+}
+
 a:visited {
-  color: inherit;
+  color: blue;
 }
 
 .outer-wrapper {
@@ -325,7 +329,7 @@ a:visited {
   margin: 0 auto;
 }
 
-@media only screen and (min-width: 26.25rem) {
+@media only screen and (min-width: 65.625rem) {
   .text-spacer {
     margin: 0 auto 0 7rem;
   }
@@ -447,6 +451,16 @@ div.wh-page-box img {
 
 .su-main-box:hover {
   opacity: .9;
+}
+
+.su-main-box {
+  margin-top: 6rem;
+}
+
+@media only screen and (min-width: 65.625rem) {
+  .su-main-box {
+    margin-top: 0;
+  }
 }
 
 .su-page-box , .wh-page-box {
@@ -642,7 +656,7 @@ div.wh-page-box img {
   display: inherit;
 }
 
-@media only screen and (min-width: 26.25rem) {
+@media only screen and (min-width: 65.625rem) {
   .before-after .top {
     display: flex;
   }
@@ -671,6 +685,13 @@ div.wh-page-box img {
 @media only screen and (min-width: 26.25rem) {
   .before-after .top img {
     max-width: 45rem;
+  }
+}
+
+@media only screen and (min-width: 65.625rem) {
+  .before-after .top img {
+      max-width: 30rem;
+      max-height: 21rem;
   }
 }
 
