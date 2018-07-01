@@ -317,6 +317,14 @@ a:visited {
   }
 }
 
+.text-spacer p {
+  font-size: 1.4rem;
+}
+
+.text-spacer h2 {
+  font-size: 2rem;
+}
+
 .wh-progress-content {
   margin-top: 4rem;
 }
