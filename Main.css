@@ -1,4 +1,4 @@
-\a:visited {
+a:visited {
   color: inherit;
 }
 
@@ -43,7 +43,7 @@
   font-size: 1.6rem;
 }
 
-@media only screen and (min-width: 420px) {
+@media only screen and (min-width: 26.25rem) {
   .navigation ul li {
     font-size: inherit;
   }
@@ -54,7 +54,7 @@
   font-size: 3.5rem;
 }
 
-@media only screen and (min-width: 420px) {
+@media only screen and (min-width: 26.25rem) {
   .home-top-section h1 {
     padding-top: 18rem;
     font-size: 2rem;
@@ -87,9 +87,9 @@
   animation: pulse 5s infinite;
 }
 
-@media only screen and (min-width: 420px) {
+@media only screen and (min-width: 26.25rem) {
   .arrow {
-    display: inherit;
+    display: inline;
   }
 }
 
@@ -120,7 +120,7 @@
   border-radius: 16px 16px 0 0;
 }
 
-@media only screen and (min-width: 420px) {
+@media only screen and (min-width: 26.25rem) {
   .showcase-box img {
     margin-bottom: -.3rem;
   }
@@ -208,7 +208,7 @@
   font-size: 3rem;
 }
 
-@media only screen and (min-width: 420px) {
+@media only screen and (min-width: 26.25rem) {
   .dev-header-home {
     margin-top: 30rem;
   }
@@ -226,7 +226,7 @@
   align-items: baseline;
 }
 
-@media only screen and (min-width: 420px) {
+@media only screen and (min-width: 26.25rem) {
   .about-section-spacer {
     display: flex;
   }
@@ -236,7 +236,7 @@
   font-size: 1.4rem;
 }
 
-@media only screen and (min-width: 420px) {
+@media only screen and (min-width: 26.25rem) {
   .about-section-spacer p {
     font-size: inherit;
   }
@@ -249,7 +249,7 @@
   font-size: 4rem;
 }
 
-@media only screen and (min-width: 420px) {
+@media only screen and (min-width: 26.25rem) {
   .about-section-spacer h3 {
     font-size: inherit;
   }
