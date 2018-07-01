@@ -257,13 +257,13 @@ a:visited {
 }
 
 .dev-header-home {
-  margin-top: 15rem;
+  margin-top: 12rem;
   font-size: 3rem;
 }
 
 @media only screen and (min-width: 26.25rem) {
   .dev-header-home {
-    margin-top: 30rem;
+    margin-top: 20rem;
   }
 }
 
@@ -353,13 +353,17 @@ a:visited {
 
 @media only screen and (min-width: 26.25rem) {
   .wh-progress-content {
-    margin-top: inherit;
+    margin-top: 6rem;
   }
 }
 
 .text-spacer-center {
   width: 70%;
   margin: 0 auto;
+}
+
+.text-spacer-center p {
+  font-size: 1.4rem;
 }
 
 .wh-mockups {
@@ -492,6 +496,7 @@ div.wh-page-box img {
 
 .su-layout-box {
   padding-top: 4rem;
+  margin-bottom: 6rem;
 }
 
 .su-layout-box .images {
@@ -564,16 +569,18 @@ div.wh-page-box img {
 
 .functionality-header {
   margin-top: 4rem;
+  font-size: 2rem;
 }
 
 @media only screen and (min-width: 26.25rem) {
   .functionality-header {
-    margin-top: inherit;
+    margin-top: 6rem;
   }
 }
 
 .interview-section {
   text-align: center;
+  margin-bottom: 6rem;
 }
 
 .interview-section img {
@@ -605,7 +612,7 @@ div.wh-page-box img {
 
 @media only screen and (min-width: 26.25rem) {
   .before-after {
-    margin-top: 5rem;
+    margin-top: 2.5rem;
   }
 }
 
