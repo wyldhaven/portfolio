@@ -40,25 +40,11 @@ a:visited {
 .navigation ul li {
   list-style-type: none;
   margin: 0 2rem;
-  font-size: 1.6rem;
-}
-
-@media only screen and (min-width: 26.25rem) {
-  .navigation ul li {
-    font-size: inherit;
-  }
 }
 
 .home-top-section h1 {
   padding-top: 25rem;
-  font-size: 3.5rem;
-}
-
-@media only screen and (min-width: 26.25rem) {
-  .home-top-section h1 {
-    padding-top: 18rem;
-    font-size: 2rem;
-  }
+  font-size: 2rem;
 }
 
 .main-header {
