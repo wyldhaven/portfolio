@@ -108,6 +108,7 @@ h2 {
 
 .arrow {
   position: absolute;
+  display: none;
   padding: 0;
   left: 0;
   right: 0;
@@ -127,6 +128,12 @@ h2 {
     50% {
         opacity: 0.7;
     }
+}
+
+@media only screen and (min-width: 26.25rem) {
+  .arrow {
+    display: inline;
+  }
 }
 
 .music-section {
