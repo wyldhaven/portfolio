@@ -47,7 +47,7 @@ a:visited {
 
 .navigation ul li:last-child {
   margin-right: 1rem;
-  margin-left: auto;
+  margin-left: 1rem;
 }
 
 @media only screen and (min-width: 26.25rem) {
@@ -137,11 +137,13 @@ a:visited {
   margin-bottom: -.3rem;
   box-shadow: 2px 3px 7px 0px #333;
   border-radius: 16px 16px 0 0;
+  border-radius: 5px 5px 0 0;
 }
 
 @media only screen and (min-width: 26.25rem) {
   .showcase-box img {
     max-width: 45rem;
+    border-radius: 16px 16px 0 0;
   }
 }
 
@@ -286,7 +288,13 @@ a:visited {
 
 .text-spacer {
   width: 70%;
-  margin: 0 auto 0 7rem;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 26.25rem) {
+  .text-spacer {
+    margin: 0 auto 0 7rem;
+  }
 }
 
 .text-spacer-center {
@@ -352,14 +360,25 @@ div.wh-page-box img {
 }
 
 .su-page-box img:last-child {
-  min-width: 38.34rem;
+  min-width: 17rem;
   border-radius: 0;
   box-shadow: none;
 }
 
+@media only screen and (min-width: 26.25rem) {
+  .su-page-box img:last-child {
+    min-width: 38.34rem;
+  }
+}
+
 .wh-page-box img:first-child {
-  margin-left: -1rem;
-  margin-right: 1rem;
+  display: none;
+}
+
+@media only screen and (min-width: 26.25rem) {
+  .wh-page-box img:first-child {
+    display: inherit;
+  }
 }
 
 .su-layout-box {
