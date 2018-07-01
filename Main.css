@@ -740,7 +740,7 @@ div.wh-page-box img {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: initial;
   }
 }
 
