@@ -140,13 +140,8 @@ h2 {
 
 @media only screen and (min-width: 65.625rem) {
   .music-section {
-    margin-bottom: 40rem;
-  }
-}
-
-@media only screen and (min-width: 65.625rem) {
-  .music-section {
     display: flex;
+    margin-bottom: 40rem;
   }
 }
 
@@ -156,6 +151,12 @@ h2 {
 }
 
 @media only screen and (min-width: 26.25rem) {
+  .album {
+    max-width: 24rem;
+  }
+}
+
+@media only screen and (min-width: 65.625rem) {
   .album {
     max-width: 35rem;
   }
