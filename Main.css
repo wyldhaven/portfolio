@@ -600,7 +600,13 @@ div.wh-page-box img {
 }
 
 .before-after {
-  margin-top: 5rem;
+  margin-top: 1rem;
+}
+
+@media only screen and (min-width: 26.25rem) {
+  .before-after {
+    margin-top: 5rem;
+  }
 }
 
 .before-after img {
