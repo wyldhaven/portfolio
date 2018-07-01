@@ -353,16 +353,16 @@ div.wh-page-box img {
   width: 40%;
 }
 
-@media only screen and (min-width: 26.25rem) {
-  .su-page-box img:first-child {
-    display: none;
-  }
-}
-
 .su-page-box img:first-child {
   margin-left: -1rem;
   margin-right: 1rem;
-  display: inherit;
+  display: none;
+}
+
+@media only screen and (min-width: 26.25rem) {
+  .su-page-box img:first-child {
+    display: inherit;
+  }
 }
 
 .su-page-box img:last-child {
@@ -488,9 +488,16 @@ div.wh-page-box img {
 
 .before-after .top .content {
   display: inline-block;
-  width: 30rem;
+  width: auto;
   text-align: left;
-  padding-left: 3rem;
+  padding-left: 0;
+}
+
+@media only screen and (min-width: 26.25rem) {
+  .before-after .top .content {
+    width: 30rem;
+    padding-left: 3rem;
+  }
 }
 
 .before-after .top img {
