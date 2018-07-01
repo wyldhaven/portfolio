@@ -21,7 +21,7 @@ body {
   z-index: 100;
 }
 
-@media only screen and (min-width: 26.25rem) {
+@media only screen and (min-width: 65.625rem) {
   .navigation {
     left: 3rem;
     right: auto;
@@ -40,7 +40,7 @@ body {
   display: inline;
 }
 
-@media only screen and (min-width: 26.25rem) {
+@media only screen and (min-width: 65.625rem) {
   .navigation li {
     display: list-item;
     padding: .6rem 0;
@@ -68,8 +68,13 @@ body {
 
 @media only screen and (min-width: 26.25rem) {
   .home-section {
-    margin-bottom: 40rem;
     padding-top: 23%;
+  }
+}
+
+@media only screen and (min-width: 65.625rem) {
+  .home-section {
+    margin-bottom: 40rem;
   }
 }
 
@@ -133,7 +138,7 @@ h2 {
   justify-content: center;
 }
 
-@media only screen and (min-width: 26.25rem) {
+@media only screen and (min-width: 65.625rem) {
   .music-section {
     margin-bottom: 40rem;
   }
