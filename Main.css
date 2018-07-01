@@ -133,10 +133,16 @@ a:visited {
 }
 
 .showcase-box img {
-  max-width: 45rem;
+  max-width: 18rem;
   margin-bottom: -.3rem;
   box-shadow: 2px 3px 7px 0px #333;
   border-radius: 16px 16px 0 0;
+}
+
+@media only screen and (min-width: 26.25rem) {
+  .showcase-box img {
+    max-width: 45rem;
+  }
 }
 
 .showcase-box h2 {
@@ -361,20 +367,38 @@ div.wh-page-box img {
 }
 
 .su-layout-box .images {
-  display: flex;
+  display: inherit;
   margin: 0 auto;
   width: fit-content;
   width: -moz-fit-content;
 }
 
+@media only screen and (min-width: 26.25rem) {
+  .su-layout-box .images {
+    display: flex;
+  }
+}
+
 .su-layout-box .images img {
   border-radius: 0;
   box-shadow: none;
-  max-width: 53rem;
+  max-width: 20rem;
+}
+
+@media only screen and (min-width: 26.25rem) {
+  .su-layout-box .images img {
+    max-width: 53rem;
+  }
 }
 
 .su-layout-box .images a {
-  margin: 4rem 2rem 2rem auto;
+  margin: 0rem auto 2rem auto;
+}
+
+@media only screen and (min-width: 26.25rem) {
+  .su-layout-box .images a {
+    margin: 4rem 2rem 2rem auto;
+  }
 }
 
 .su-layout-box a:last-child img {
@@ -383,7 +407,13 @@ div.wh-page-box img {
 }
 
 .su-layout-box .images a:last-child {
-  margin: auto auto auto 2rem;
+  margin: auto;
+}
+
+@media only screen and (min-width: 26.25rem) {
+  .su-layout-box .images a:last-child {
+    margin: auto auto auto 2rem;
+  }
 }
 
 .su-layout-box a {
@@ -427,7 +457,7 @@ div.wh-page-box img {
 }
 
 .before-after .top {
-  display: none;
+  display: inherit;
 }
 
 @media only screen and (min-width: 26.25rem) {
