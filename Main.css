@@ -142,9 +142,14 @@ a:visited {
   margin-top: 2rem;
 }
 
-@media only screen and (min-width: 65.625rem) {
+@media only screen and (min-width: 26.25rem) {
   .showcase-box img {
     max-width: 45rem;
+  }
+}
+
+@media only screen and (min-width: 65.625rem) {
+  .showcase-box img {
     border-radius: 16px 16px 0 0;
     margin-top: 0;
   }
@@ -156,9 +161,14 @@ a:visited {
   font-size: 2rem;
 }
 
-@media only screen and (min-width: 65.625rem) {
+@media only screen and (min-width: 26.25rem) {
   .showcase-box h2 {
     font-size: 3rem;
+  }
+}
+
+@media only screen and (min-width: 65.625rem) {
+  .showcase-box h2 {
     padding: 4rem 0;
   }
 }
