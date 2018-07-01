@@ -139,17 +139,19 @@ a:visited {
   box-shadow: 2px 3px 7px 0px #333;
   border-radius: 16px 16px 0 0;
   border-radius: 5px 5px 0 0;
+  margin-top: 2rem;
 }
 
 @media only screen and (min-width: 26.25rem) {
   .showcase-box img {
     max-width: 45rem;
     border-radius: 16px 16px 0 0;
+    margin-top: 0;
   }
 }
 
 .showcase-box h2 {
-  padding: 4rem 0;
+  padding: 4rem 0 0;
   margin: 0;
   font-size: 2rem;
 }
@@ -157,6 +159,7 @@ a:visited {
 @media only screen and (min-width: 26.25rem) {
   .showcase-box h2 {
     font-size: 3rem;
+    padding: 4rem 0;
   }
 }
 
@@ -172,6 +175,16 @@ a:visited {
   color: #fff;
   z-index: 2;
   font-size: 1.8rem;
+}
+
+.mobile-cover-links {
+  display: inline;
+}
+
+@media only screen and (min-width: 26.25rem) {
+  .mobile-cover-links {
+    display: none;
+  }
 }
 
 .cover-links a {
