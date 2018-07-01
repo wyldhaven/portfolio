@@ -1,4 +1,4 @@
-a:visited {
+\a:visited {
   color: inherit;
 }
 
@@ -40,10 +40,25 @@ a:visited {
 .navigation ul li {
   list-style-type: none;
   margin: 0 2rem;
+  font-size: 1.6rem;
+}
+
+@media only screen and (min-width: 420px) {
+  .navigation ul li {
+    font-size: inherit;
+  }
 }
 
 .home-top-section h1 {
-  padding-top: 20%;
+  padding-top: 25rem;
+  font-size: 3.5rem;
+}
+
+@media only screen and (min-width: 420px) {
+  .home-top-section h1 {
+    padding-top: 18rem;
+    font-size: 2rem;
+  }
 }
 
 .main-header {
@@ -67,8 +82,15 @@ a:visited {
   margin-top: 10rem;
   margin-bottom: 35%;
   opacity: 0;
+  display: none;
   -webkit-animation: pulse 5s infinite;
   animation: pulse 5s infinite;
+}
+
+@media only screen and (min-width: 420px) {
+  .arrow {
+    display: inherit;
+  }
 }
 
 @keyframes pulse {
@@ -93,9 +115,15 @@ a:visited {
 
 .showcase-box img {
   max-width: 45rem;
-  margin-bottom: -.3rem;
+  margin-bottom: -.7rem;
   box-shadow: 2px 3px 7px 0px #333;
   border-radius: 16px 16px 0 0;
+}
+
+@media only screen and (min-width: 420px) {
+  .showcase-box img {
+    margin-bottom: -.3rem;
+  }
 }
 
 .showcase-box h2 {
@@ -176,8 +204,14 @@ a:visited {
 }
 
 .dev-header-home {
-  margin-top: 30rem;
+  margin-top: 20rem;
   font-size: 3rem;
+}
+
+@media only screen and (min-width: 420px) {
+  .dev-header-home {
+    margin-top: 30rem;
+  }
 }
 
 .home-about-wrapper {
@@ -188,14 +222,37 @@ a:visited {
   text-align: left;
   max-width: 65%;
   margin: 2rem auto;
-  display: flex;
+  display: block;
   align-items: baseline;
+}
+
+@media only screen and (min-width: 420px) {
+  .about-section-spacer {
+    display: flex;
+  }
+}
+
+.about-section-spacer p {
+  font-size: 1.4rem;
+}
+
+@media only screen and (min-width: 420px) {
+  .about-section-spacer p {
+    font-size: inherit;
+  }
 }
 
 .about-section-spacer h3 {
   width: 100%;
   min-width: 8rem;
   margin-right: 2rem;
+  font-size: 4rem;
+}
+
+@media only screen and (min-width: 420px) {
+  .about-section-spacer h3 {
+    font-size: inherit;
+  }
 }
 
 .su-wrapper , .wh-wrapper {
@@ -440,6 +497,7 @@ div.wh-page-box img {
 .footer ul li.linkedin {
   margin-left: auto;
   margin-top: -.5rem;
+  padding-right: 21px;
 }
 
 .footer .linkedin img {
