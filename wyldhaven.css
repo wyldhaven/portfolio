@@ -14,10 +14,18 @@ body {
 
 .navigation {
   position: fixed;
-  left: 3rem;
+  left: 0;
+  right: 0;
   top: 2rem;
   margin: -.5rem 0 0;
   z-index: 100;
+}
+
+@media only screen and (min-width: 26.25rem) {
+  .navigation {
+    left: 3rem;
+    right: auto;
+  }
 }
 
 .navigation ul {
@@ -27,6 +35,14 @@ body {
 
 .navigation li {
   padding: .6rem 0;
+  font-size: 1.2rem;
+  display: inline;
+}
+
+@media only screen and (min-width: 26.25rem) {
+  .navigation li {
+    display: list-item;;
+  }
 }
 
 .navigation a:visited {
@@ -43,9 +59,16 @@ body {
 }
 
 .home-section {
-  margin-bottom: 40rem;
+  margin-bottom: 22rem;
   position: relative;
-  padding-top: 23%;
+  padding-top: 80%;
+}
+
+@media only screen and (min-width: 26.25rem) {
+  .home-section {
+    margin-bottom: 40rem;
+    padding-top: 23%;
+  }
 }
 
 h1 {
@@ -53,9 +76,15 @@ h1 {
 }
 
 h2 {
-  margin-top: 20%;
+  margin-top: 45%;
   font-size: 2rem;
   margin-bottom: 0;
+}
+
+@media only screen and (min-width: 26.25rem) {
+  h2 {
+   margin-top: 20%;
+  }
 }
 
 .scroll {
@@ -80,37 +109,58 @@ h2 {
   opacity: .2;
   z-index: -1;
   opacity: 0;
-  -webkit-animation: pulse 6s infinite;
-  animation: pulse 6s infinite;
+  -webkit-animation: pulse 5s infinite;
+  animation: pulse 5s infinite;
 }
 
 @keyframes pulse {
     0%, 100% {
-        opacity: 0.05;
+        opacity: 0.3;
     }
     50% {
-        opacity: 0.3;
+        opacity: 0.7;
     }
 }
 
 .music-section {
   position: relative;
-  margin-bottom: 40rem;
+  margin-bottom: 22rem;
   padding: 6rem 1rem;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
 }
 
+@media only screen and (min-width: 26.25rem) {
+  .music-section {
+    display: flex;
+    margin-bottom: 40rem;
+  }
+}
+
 .album {
-  max-width: 35rem;
+  max-width: 17rem;
   box-shadow: 5px 5px 13px -1px black;
+}
+
+@media only screen and (min-width: 26.25rem) {
+  .album {
+    max-width: 35rem;
+  }
 }
 
 .spotify-test {
   background: grey;
   padding: 9.5rem 12rem;
-  margin-left: 3rem;
+  margin-left: 0;
+  margin-top: 3rem;
+}
+
+@media only screen and (min-width: 26.25rem) {
+  .spotify-test {
+    margin-left: 3rem;
+    margin-top: 0;
+  }
 }
 
 .music-section .cover {
@@ -129,6 +179,13 @@ h2 {
   position: relative;
   margin-bottom: 0;
   padding: 20rem 1rem;
+  padding: 8rem 1rem 20rem;
+}
+
+@media only screen and (min-width: 26.25rem) {
+  .about-section {
+    padding: 20rem 1rem;
+  }
 }
 
 .about-section .cover {
@@ -146,6 +203,7 @@ h2 {
 .about-section p {
   width: 20rem;
   margin: 0 auto;
+  font-size: 1.4rem;
 }
 
 .logo {
