@@ -585,7 +585,7 @@ div.wh-page-box img {
   }
 }
 
-@media only screen and (min-width: 41.875rem) {
+@media only screen and (min-width: 65.625rem) {
   .su-layout-box .images img {
     max-width: 53rem;
   }
