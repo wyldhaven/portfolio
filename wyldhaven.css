@@ -135,8 +135,13 @@ h2 {
 
 @media only screen and (min-width: 26.25rem) {
   .music-section {
-    display: flex;
     margin-bottom: 40rem;
+  }
+}
+
+@media only screen and (min-width: 65.625rem) {
+  .music-section {
+    display: flex;
   }
 }
 
@@ -158,7 +163,7 @@ h2 {
   margin-top: 3rem;
 }
 
-@media only screen and (min-width: 26.25rem) {
+@media only screen and (min-width: 65.625rem) {
   .spotify-test {
     margin-left: 3rem;
     margin-top: 0;
