@@ -73,10 +73,10 @@ a:visited {
 
 @keyframes pulse {
     0%, 100% {
-        opacity: 0.3;
+        opacity: 0.2;
     }
     50% {
-        opacity: 0.7;
+        opacity: 0.5;
     }
 }
 
@@ -437,8 +437,18 @@ div.wh-page-box img {
   width: 84px;
 }
 
-.footer-home ul li:last-child {
-  margin-left: 2rem;
+.linkedin {
+  margin-left: auto;
   margin-right: auto;
-  width: 113px;
+  margin-top: -.5rem;
+}
+
+.linkedin img {
+  max-width: 3rem;
+  margin-right: auto;
+  margin-left: calc(50% - 165px);
+}
+
+.linkedin a:hover {
+  opacity: .8;
 }
