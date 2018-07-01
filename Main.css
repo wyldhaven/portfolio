@@ -193,6 +193,9 @@ a:visited {
 
 .mobile-cover-links {
   display: block;
+}
+
+.mobile-cover-links a {
   color: #fff;
 }
 
