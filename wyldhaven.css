@@ -128,7 +128,7 @@ h2 {
   position: relative;
   margin-bottom: 22rem;
   padding: 6rem 1rem;
-  display: none;
+  display: block;
   align-items: center;
   justify-content: center;
 }
