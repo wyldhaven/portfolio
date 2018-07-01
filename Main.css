@@ -439,16 +439,27 @@ div.wh-page-box img {
 
 .footer ul li.linkedin {
   margin-left: auto;
+  margin-top: -.5rem;
+}
+
+.footer .linkedin img {
+  max-width: 3rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer-home ul li.linkedin {
+  margin-left: auto;
   margin-right: auto;
   margin-top: -.5rem;
 }
 
-.linkedin img {
+.footer-home .linkedin img {
   max-width: 3rem;
   margin-right: auto;
   margin-left: calc(50% - 165px);
 }
 
 .linkedin a:hover {
-  opacity: .8;
+  opacity: .6;
 }
