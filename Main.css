@@ -729,6 +729,7 @@ div.wh-page-box img {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
     height: 41rem;
     overflow: hidden;
 }
@@ -738,7 +739,8 @@ div.wh-page-box img {
     background: url(/portfolio/image/Wyldhaven-background.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: inherit;
+    background-size: cover;
+    background-position: center;
   }
 }
 
