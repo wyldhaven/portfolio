@@ -353,10 +353,16 @@ div.wh-page-box img {
   width: 40%;
 }
 
+@media only screen and (min-width: 26.25rem) {
+  .su-page-box img:first-child {
+    display: none;
+  }
+}
+
 .su-page-box img:first-child {
   margin-left: -1rem;
   margin-right: 1rem;
-  border-radius: 0;
+  display: inherit;
 }
 
 .su-page-box img:last-child {
@@ -372,13 +378,8 @@ div.wh-page-box img {
 }
 
 .wh-page-box img:first-child {
-  display: none;
-}
-
-@media only screen and (min-width: 26.25rem) {
-  .wh-page-box img:first-child {
-    display: inherit;
-  }
+  margin-left: -1rem;
+  margin-right: 1rem;
 }
 
 .su-layout-box {
