@@ -725,12 +725,18 @@ div.wh-page-box img {
 
 
 .functionality-section {
-    background: url(/portfolio/image/Wyldhaven-background.png);
+    background: url(/portfolio/image/madison-mobile.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     height: 41rem;
     overflow: hidden;
+}
+
+@media only screen and (min-width: 26.25rem) {
+  .functionality-section {
+    background: url(/portfolio/image/Wyldhaven-background.png);
+  }
 }
 
 .functionality-section h2 {
