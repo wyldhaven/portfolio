@@ -74,8 +74,14 @@ a:visited {
 
 .home-top-section h1 {
   padding-top: 15rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 70%;
+}
+
+@media only screen and (min-width: 23.75rem) {
+  .home-top-section h1  {
+    font-size: 2rem;
+  }
 }
 
 @media only screen and (min-width: 26.25rem) {
@@ -138,12 +144,18 @@ a:visited {
 }
 
 .showcase-box img {
-  max-width: 18rem;
+  max-width: 16rem;
   margin-bottom: -.3rem;
   box-shadow: 2px 3px 7px 0px #333;
   border-radius: 16px 16px 0 0;
   border-radius: 5px 5px 0 0;
   margin-top: 2rem;
+}
+
+@media only screen and (min-width: 23.75rem) {
+  .showcase-box img {
+    max-width: 18rem;
+  }
 }
 
 @media only screen and (min-width: 26.25rem) {
@@ -552,7 +564,13 @@ div.wh-page-box img {
 .su-layout-box .images img {
   border-radius: 0;
   box-shadow: none;
-  max-width: 20rem;
+  max-width: 16rem;
+}
+
+@media only screen and (min-width: 23.75rem) {
+  .su-layout-box .images img {
+    max-width: 20rem;
+  }
 }
 
 @media only screen and (min-width: 26.25rem) {
@@ -573,7 +591,13 @@ div.wh-page-box img {
 
 .su-layout-box a:last-child img {
   box-shadow: 2px 3px 7px 0px #333;
-  max-width: 18rem;
+  max-width: 13rem;
+}
+
+@media only screen and (min-width: 23.75rem) {
+  .su-layout-box a:last-child img {
+    max-width: 18rem;
+  }
 }
 
 .su-layout-box .images a:last-child {
@@ -683,9 +707,15 @@ div.wh-page-box img {
 }
 
 .before-after .top img {
-  max-width: 17rem;
+  max-width: 14rem;
   max-height: 30rem;
   display: inline-block;
+}
+
+@media only screen and (min-width: 23.75rem) {
+  .before-after .top img {
+    max-width: 17rem;
+  }
 }
 
 @media only screen and (min-width: 26.25rem) {
@@ -750,8 +780,14 @@ div.wh-page-box img {
   position: absolute;
   left: 0;
   right: 0;
-  margin-top: 60%;
+  margin-top: 80%;
   font-size: 2.5rem;
+}
+
+@media only screen and (min-width: 23.75rem) {
+  .functionality-section h2 {
+    margin-top: 60%;
+  }
 }
 
 @media only screen and (min-width: 26.25rem) {
