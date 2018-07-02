@@ -938,6 +938,16 @@ div.wh-page-box img {
   }
 }
 
+.su-layout-box a.light-box-mobile {
+  display: inherit;
+}
+
+@media only screen and (min-width: 65.625rem) {
+  .su-layout-box a.light-box-mobile {
+    display: none;
+  }
+}
+
 .light-box-mobile {
   display: inherit;
 }
