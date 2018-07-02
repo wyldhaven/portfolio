@@ -815,8 +815,14 @@ div.wh-page-box img {
 
 @media only screen and (min-width: 26.25rem) {
   .functionality-section h2 {
-    margin-top: 20%;
+    margin-top: 35%;
     font-size: 5rem;
+  }
+}
+
+@media only screen and (min-width: 41.875rem) {
+  .functionality-section h2 {
+    margin-top: 20%;
   }
 }
 
