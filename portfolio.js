@@ -27,17 +27,17 @@ var setupValues = function() {
 };
 
 var animateIntro = function() {
-  $(".main-header").delay(700).animate({
+  $(".main-header").delay(200).animate({
         opacity: 1
-    }, 2300, function() {
+    }, 1800, function() {
         $(".underbrow").animate({
             opacity: 1
-        }, 1500);
+        }, 1300);
     });
 
   $(".arrow-wrapper").delay(4550).animate({
         opacity: .7
-    }, 1900);
+    }, 1400);
 
 };
 
