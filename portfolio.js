@@ -35,7 +35,7 @@ var animateIntro = function() {
         }, 1600);
     });
 
-  $(".arrow-wrapper").delay(3200).animate({
+  $(".arrow-wrapper").delay(2500).animate({
         opacity: .7
     }, 800);
 
