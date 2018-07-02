@@ -758,6 +758,15 @@ div.wh-page-box img {
   }
 }
 
+@media only screen and (min-width: 87.5rem) {
+  .before-after .top img {
+    max-width: inherit;
+    width: 46%;
+    height: 30%;
+    max-height: inherit;
+  }
+}
+
 .before-after .bottom {
   display: none;
   justify-content: space-between;
@@ -772,11 +781,21 @@ div.wh-page-box img {
 }
 
 .before-after .bottom img {
-  max-width: 26rem;
-  max-height: 18rem;
-  width: 26rem;
-  height: 18rem;
+  max-width: 23rem;
+  max-height: 15rem;
+  height: 15rem;
+  width: 33%;
 }
+
+@media only screen and (min-width: 87.5rem) {
+  .before-after .bottom img {
+    max-width: 26rem;
+    max-height: 18rem;
+    width: 26rem;
+    height: 18rem;
+  }
+}
+
 
 
 
