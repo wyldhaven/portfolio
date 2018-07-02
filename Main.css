@@ -587,23 +587,23 @@ div.wh-page-box img {
   }
 }
 
-.su-layout-box a:last-child img {
+.su-layout-box a.second {
   box-shadow: 2px 3px 7px 0px #333;
   max-width: 13rem;
 }
 
 @media only screen and (min-width: 23.75rem) {
-  .su-layout-box a:last-child img {
+  .su-layout-box a.second {
     max-width: 18rem;
   }
 }
 
-.su-layout-box .images a:last-child {
+.su-layout-box .images a.second {
   margin: auto;
 }
 
 @media only screen and (min-width: 65.625rem) {
-  .su-layout-box .images a:last-child {
+  .su-layout-box .images a.second{
     margin: auto auto auto 2rem;
   }
 }
