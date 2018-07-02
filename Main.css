@@ -726,6 +726,11 @@ div.wh-page-box img {
 @media only screen and (min-width: 26.25rem) {
   .before-after .top .content {
     width: 30rem;
+  }
+}
+
+@media only screen and (min-width: 65.625rem) {
+  .before-after .top .content {
     padding-left: 3rem;
   }
 }
@@ -744,8 +749,8 @@ div.wh-page-box img {
 
 @media only screen and (min-width: 26.25rem) {
   .before-after .top img {
-    max-width: 36rem;
-    max-height: 27rem;
+    max-width: 30rem;
+    max-height: 21rem;
   }
 }
 
