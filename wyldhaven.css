@@ -5,6 +5,7 @@ body {
   background-position: 0 5rem;
   background-repeat: no-repeat;
   background-color: black;
+  background-size: initial;
 }
 
 @media only screen and (min-width: 26.25rem) {
