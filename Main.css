@@ -758,7 +758,7 @@ div.wh-page-box img {
   }
 }
 
-@media only screen and (min-width: 87.5rem) {
+@media only screen and (min-width: 85.375rem) {
   .before-after .top img {
     max-width: inherit;
     width: auto;
@@ -787,7 +787,7 @@ div.wh-page-box img {
   width: 33%;
 }
 
-@media only screen and (min-width: 87.5rem) {
+@media only screen and (min-width: 85.375rem) {
   .before-after .bottom img {
     max-width: 26rem;
     max-height: 18rem;
