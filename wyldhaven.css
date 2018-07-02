@@ -80,6 +80,12 @@ body {
 
 @media only screen and (min-width: 26.25rem) {
   .home-section {
+    padding-top: 60%;
+  }
+}
+
+@media only screen and (min-width: 41.875rem) {
+  .home-section {
     padding-top: 23%;
   }
 }
@@ -107,6 +113,12 @@ h2 {
 }
 
 @media only screen and (min-width: 26.25rem) {
+  h2 {
+   margin-top: 40%;
+  }
+}
+
+@media only screen and (min-width: 41.875rem) {
   h2 {
    margin-top: 20%;
   }
