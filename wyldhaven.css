@@ -99,6 +99,12 @@ body {
 @media only screen and (min-width: 65.625rem) {
   .home-section {
     margin-bottom: 40rem;
+    padding-top: 47%;
+  }
+}
+
+@media only screen and (min-width: 85.375rem) {
+  .home-section {
     padding-top: 23%;
   }
 }
