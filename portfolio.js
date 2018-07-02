@@ -32,7 +32,7 @@ var animateIntro = function() {
     }, 1200, function() {
         $(".underbrow").animate({
             opacity: 1
-        }, 1000);
+        }, 1600);
     });
 
   $(".arrow-wrapper").delay(3200).animate({
