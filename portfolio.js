@@ -29,15 +29,15 @@ var setupValues = function() {
 var animateIntro = function() {
   $(".main-header").delay(200).animate({
         opacity: 1
-    }, 1800, function() {
+    }, 1400, function() {
         $(".underbrow").animate({
             opacity: 1
-        }, 1300);
+        }, 1200);
     });
 
-  $(".arrow-wrapper").delay(4100).animate({
+  $(".arrow-wrapper").delay(3700).animate({
         opacity: .7
-    }, 1400);
+    }, 1000);
 
 };
 
