@@ -791,25 +791,37 @@ div.wh-page-box img {
 
 
 
-
+.mobile-background {
+  background: url(/portfolio/image/madison-mobile.jpg);
+  position: fixed;
+  width: 100%;
+  z-index: -1;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-repeat: no-repeat;
+  /* background-color: black; */
+  /* background-position: 50% 0; */
+  display: inherit;
+}
 
 .functionality-section {
-    background: url(/portfolio/image/madison-mobile.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
+    background-image: none;
     height: 41rem;
     overflow: hidden;
 }
 
-@media only screen and (min-width: 26.25rem) {
+@media only screen and (min-width: 64.375rem) {
   .functionality-section {
     background: url(/portfolio/image/Wyldhaven-background.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: initial;
+  }
+
+  .mobile-background {
+    display: none;
   }
 }
 
