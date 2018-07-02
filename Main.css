@@ -916,3 +916,24 @@ div.wh-page-box img {
 .linkedin a:hover {
   opacity: .6;
 }
+
+
+.light-box-desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 41.875rem) {
+  .light-box-desktop {
+    display: inherit;
+  }
+}
+
+.light-box-mobile {
+  display: inherit;
+}
+
+@media only screen and (min-width: 41.875rem) {
+  .light-box-mobile {
+    display: none;
+  }
+}
