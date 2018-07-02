@@ -86,18 +86,21 @@ body {
 
 @media only screen and (min-width: 41.875rem) {
   .home-section {
-    padding-top: 23%;
+    padding-top: 34%;
   }
 }
 
 @media only screen and (min-width: 65.625rem) {
   .home-section {
     margin-bottom: 40rem;
+    padding-top: 23%;
   }
 }
 
 h1 {
   text-transform: uppercase;
+  font-size: 3.5rem;
+  letter-spacing: 1.5rem;
 }
 
 h2 {
