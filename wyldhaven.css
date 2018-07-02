@@ -105,8 +105,15 @@ body {
 
 h1 {
   text-transform: uppercase;
-  font-size: 3.5rem;
-  letter-spacing: 1.5rem;
+  font-size: auto;
+  letter-spacing: inherit;
+}
+
+@media only screen and (min-width: 65.625rem) {
+  h1 {
+    font-size: 3.5rem;
+    letter-spacing: 1.5rem;
+  }
 }
 
 h2 {
