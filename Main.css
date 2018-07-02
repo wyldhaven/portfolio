@@ -366,26 +366,12 @@ a:visited {
   font-size: 2rem;
 }
 
-.moble-content-wrapper {
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.moble-content-wrapper p {
+.before-after p {
   font-size: 1.4rem;
 }
 
-.moble-content-wrapper h2 {
+.before-after h2 {
   font-size: 2rem;
-}
-
-@media only screen and (min-width: 65.625rem) {
-  .moble-content-wrapper {
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
 
 .wh-progress-content {
