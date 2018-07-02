@@ -75,7 +75,13 @@ body {
 .home-section {
   margin-bottom: 22rem;
   position: relative;
-  padding-top: 100%;
+  padding-top: 82%;
+}
+
+@media only screen and (min-width: 20.3125rem) {
+  .home-section {
+    padding-top: 87%;
+  }
 }
 
 @media only screen and (min-width: 23.75rem) {
