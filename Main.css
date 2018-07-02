@@ -600,7 +600,7 @@ div.wh-page-box img {
 }
 
 .su-layout-box .images a:last-child {
-  margin: auto;
+  margin: 2rem auto;
 }
 
 @media only screen and (min-width: 65.625rem) {
