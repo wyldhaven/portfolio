@@ -96,7 +96,6 @@ body {
 .navigation a {
   color: #fff;
   text-decoration: underline;
-  text-decoration: none;
 }
 
 .navigation a:hover {
