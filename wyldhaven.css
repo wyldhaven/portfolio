@@ -95,11 +95,12 @@ body {
 
 .navigation a {
   color: #fff;
+  text-decoration: underline;
   text-decoration: none;
 }
 
 .navigation a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .home-section {
@@ -320,7 +321,7 @@ h2 {
 .about-section {
   position: relative;
   margin-bottom: 0;
-  padding: 8rem 1rem 20rem;
+  padding: 8rem 1rem 17rem;
 }
 
 .about-section .wrapper {
