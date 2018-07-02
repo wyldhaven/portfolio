@@ -917,6 +917,15 @@ div.wh-page-box img {
   opacity: .6;
 }
 
+.su-layout-box a.light-box-desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 65.625rem) {
+  .su-layout-box a.light-box-desktop {
+    display: table;
+  }
+}
 
 .light-box-desktop {
   display: none;
