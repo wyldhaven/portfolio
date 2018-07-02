@@ -75,7 +75,13 @@ body {
 .home-section {
   margin-bottom: 22rem;
   position: relative;
-  padding-top: 80%;
+  padding-top: 100%;
+}
+
+@media only screen and (min-width: 23.75rem) {
+  .home-section {
+    padding-top: 80%;
+  }
 }
 
 @media only screen and (min-width: 26.25rem) {
@@ -204,7 +210,6 @@ h2 {
 
 .spotify-test {
   background: grey;
-  padding: 9.5rem 12rem;
   margin-left: 0;
   margin-top: 3rem;
 }
