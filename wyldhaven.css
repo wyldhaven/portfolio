@@ -353,7 +353,7 @@ h2 {
 }
 
 .logo {
-  bottom: 0;
+  bottom: -18rem;
   max-width: 10rem;
   position: absolute;
   left: 0;
