@@ -23,6 +23,18 @@ body {
   }
 }
 
+.mobile-background {
+    background-image: url(/portfolio/madison-mobile.jpg);
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
 .outer-wrapper {
   max-width: 1366px;
   margin: 0 auto;
