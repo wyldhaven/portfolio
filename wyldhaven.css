@@ -273,11 +273,10 @@ h2 {
 .about-section {
   position: relative;
   margin-bottom: 0;
-  padding: 20rem 1rem;
   padding: 8rem 1rem 20rem;
 }
 
-@media only screen and (min-width: 26.25rem) {
+@media only screen and (min-width: 65.625rem) {
   .about-section {
     padding: 20rem 1rem;
   }
