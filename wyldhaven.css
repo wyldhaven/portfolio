@@ -257,6 +257,11 @@ h2 {
   justify-content: center;
 }
 
+.music-section .wrapper {
+  z-index: 1;
+  position: relative;
+}
+
 @media only screen and (min-width: 65.625rem) {
   .music-section {
     display: flex;
@@ -297,7 +302,7 @@ h2 {
 .music-section .cover {
   background-color: #fff;
   opacity: .3;
-  z-index: -1;
+  z-index: 0;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -312,6 +317,11 @@ h2 {
   padding: 8rem 1rem 20rem;
 }
 
+.about-section .wrapper {
+  z-index: 1;
+  position: relative;
+}
+
 @media only screen and (min-width: 65.625rem) {
   .about-section {
     padding: 20rem 1rem;
@@ -321,7 +331,7 @@ h2 {
 .about-section .cover {
   background-color: #000;
   opacity: .5;
-  z-index: -1;
+  z-index: 0;
   width: 100%;
   height: 100%;
   position: absolute;
