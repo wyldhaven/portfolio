@@ -922,7 +922,7 @@ div.wh-page-box img {
   display: none;
 }
 
-@media only screen and (min-width: 41.875rem) {
+@media only screen and (min-width: 65.625rem) {
   .light-box-desktop {
     display: inherit;
   }
@@ -932,7 +932,7 @@ div.wh-page-box img {
   display: inherit;
 }
 
-@media only screen and (min-width: 41.875rem) {
+@media only screen and (min-width: 65.625rem) {
   .light-box-mobile {
     display: none;
   }
