@@ -821,6 +821,12 @@ div.wh-page-box img {
     position: relative;
 }
 
+@media only screen and (min-width: 26.25rem) {
+  .mobile-background {
+    background: url(/portfolio/image/Wyldhaven-background.png);
+  }
+}
+
 @media only screen and (min-width: 64.375rem) {
   .functionality-section {
     background: url(/portfolio/image/Wyldhaven-background.png);
