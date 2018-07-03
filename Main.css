@@ -310,7 +310,7 @@ a:visited {
 
 .about-section-spacer {
   text-align: left;
-  max-width: 65%;
+  max-width: 80%;
   margin: 2rem auto;
   display: block;
   align-items: baseline;
@@ -319,6 +319,7 @@ a:visited {
 @media only screen and (min-width: 26.25rem) {
   .about-section-spacer {
     display: flex;
+    max-width: 65%;
   }
 }
 
