@@ -629,13 +629,23 @@ div.wh-page-box img {
 }
 
 .functionality-header {
-  margin-top: 4rem;
-  font-size: 2rem;
+  display: none;
 }
 
-@media only screen and (min-width: 26.25rem) {
+.functionality-header-mobile {
+  display: inherit;
+  margin-top: 6rem;
+}
+
+@media only screen and (min-width: 64.375rem) {
   .functionality-header {
-    margin-top: 6rem;
+    margin-top: 4rem;
+    font-size: 2rem;
+    display: inherit;
+  }
+
+  .functionality-header-mobile {
+    display: none;
   }
 }
 
