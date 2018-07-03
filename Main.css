@@ -905,7 +905,7 @@ div.wh-page-box img {
 .footer ul li {
   list-style-type: none;
   margin: 0;
-  width: 109px;
+  width: 120px;
   padding-right: 2rem;
 }
 
@@ -919,7 +919,7 @@ div.wh-page-box img {
 .footer ul li:last-child {
   margin-right: 0;
   margin-left: auto;
-  width: 84px;
+  width: 95px;
 }
 
 @media only screen and (min-width: 26.25rem) {
