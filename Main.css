@@ -6,9 +6,10 @@ a:visited {
   color: blue;
 }
 
-/* h1 , h2 , h3 , h4 {
-
-} */
+body {
+  font-family: 'Libre Franklin', sans-serif;
+  line-height: 1.3;
+}
 
 .outer-wrapper {
   max-width: 1366px;
@@ -659,6 +660,7 @@ div.wh-page-box img {
 .interview-section {
   text-align: center;
   margin-bottom: 6rem;
+  margin-top: 2.4%;
 }
 
 .interview-section img {
