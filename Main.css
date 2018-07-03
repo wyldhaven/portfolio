@@ -793,22 +793,23 @@ div.wh-page-box img {
 
 .mobile-background {
   background: url(/portfolio/image/madison-mobile.jpg);
-  position: fixed;
+  position: absolute;
   width: 100%;
   z-index: -1;
   height: 100%;
   padding: 0;
   margin: 0;
   background-repeat: no-repeat;
-  /* background-color: black; */
-  /* background-position: 50% 0; */
+  background-position: 50% 0;
   display: inherit;
+  background-attachment: fixed;
 }
 
 .functionality-section {
     background-image: none;
     height: 41rem;
     overflow: hidden;
+    position: relative;
 }
 
 @media only screen and (min-width: 64.375rem) {
