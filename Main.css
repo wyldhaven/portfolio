@@ -830,6 +830,22 @@ div.wh-page-box img {
     position: relative;
 }
 
+.functionality-section h2 {
+  font-family: Hiragino Kaku Gothic Std;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .functionality-section h2 {
+    font-family: 'Libre Franklin', sans-serif;
+  }
+}
+
+@-moz-document url-prefix() {
+  .functionality-section h2 {
+    font-family: 'Libre Franklin', sans-serif;
+  }
+}
+
 @media only screen and (min-width: 26.25rem) {
   .mobile-background {
     background: url(/portfolio/image/Wyldhaven-background.png);
