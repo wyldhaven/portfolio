@@ -334,7 +334,7 @@ body {
   align-items: baseline;
 }
 
-@media only screen and (min-width: 41.875rem) {
+@media only screen and (min-width: 65.625rem) {
   .about-section-spacer {
     display: flex;
     max-width: 65%;
