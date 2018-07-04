@@ -1025,6 +1025,6 @@ div.wh-page-box img {
 
 @media only screen and (min-width: 65.625rem) {
   .light-box-mobile {
-    display: table;
+    display: none;
   }
 }
