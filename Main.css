@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    src: /portfolio/ArialRoundedMTStd.otf;
+}
+
+@font-face {
+    font-family: 'Hiragino Kaku Gothic Std';
+    src: /portfolio/hiragino-kaku-gothic-std-w8.otf;
+}
+
 a {
   color: blue;
 }
@@ -55,8 +65,8 @@ body {
 }
 
 .navigation ul li:last-child {
-  margin-right: 1rem;
-  margin-left: 1rem;
+  margin-right: .8rem;
+  margin-left: .8rem;
 }
 
 @media only screen and (min-width: 26.25rem) {
@@ -68,7 +78,7 @@ body {
 
 .navigation ul li {
   list-style-type: none;
-  margin: 0 1rem;
+  margin: 0 .8rem;
 }
 
 @media only screen and (min-width: 26.25rem) {
@@ -154,12 +164,13 @@ body {
   box-shadow: 2px 3px 7px 0px #333;
   border-radius: 16px 16px 0 0;
   border-radius: 5px 5px 0 0;
-  margin-top: 4%;
+  margin-top: 12%;
 }
 
 @media only screen and (min-width: 23.75rem) {
   .showcase-box img {
     max-width: 18rem;
+    margin-top: 4%;
   }
 }
 
@@ -323,7 +334,7 @@ body {
   align-items: baseline;
 }
 
-@media only screen and (min-width: 26.25rem) {
+@media only screen and (min-width: 41.875rem) {
   .about-section-spacer {
     display: flex;
     max-width: 65%;
@@ -831,7 +842,7 @@ div.wh-page-box img {
 }
 
 .functionality-section h2 {
-  font-family: Hiragino Kaku Gothic Std;
+  font-family: 'Hiragino Kaku Gothic Std';
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
@@ -1008,6 +1019,6 @@ div.wh-page-box img {
 
 @media only screen and (min-width: 65.625rem) {
   .light-box-mobile {
-    display: none;
+    display: table;
   }
 }
