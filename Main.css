@@ -1020,7 +1020,7 @@ div.wh-page-box img {
 }
 
 .light-box-mobile {
-  display: inherit;
+  display: block;
 }
 
 @media only screen and (min-width: 65.625rem) {
